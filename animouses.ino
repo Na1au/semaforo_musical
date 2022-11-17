@@ -96,7 +96,7 @@ tone(pino_buzzer, A);
 delay(200);
 tone(pino_buzzer, c);
 delay(200);
-  // delay(4000); //espera 4 segundos
+  //espera 4 segundos
   
   digitalWrite(vm, LOW);
   digitalWrite(am, HIGH);
@@ -129,6 +129,8 @@ delay(500);
  delay(500);
   tone(pino_buzzer, D);
  delay(500);
+  // espera 5,3 segundos enquanto toca música
+  
   noTone(pino_buzzer);
   digitalWrite(vm, HIGH);
   digitalWrite(am, LOW);
